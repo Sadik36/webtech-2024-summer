@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <h1>Insert Product </h1><br><br>
+    <form action="../Controllers/productController.php" method="POST">
+        <label>Product Name : </label>
+        <input type="text" name="p_name"><br><br>
+        <label>Product Price : </label>
+        <input type="number" name="p_price"><br><br>
+        <label>Product Code : </label>
+        <input type="number" name="p_code"><br><br>
+        <label>Product Details </label><br>
+        <textarea name="p_details"></textarea><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

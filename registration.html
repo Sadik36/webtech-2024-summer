@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling with php</title>
+</head>
+<body>
+    <form action="../Controllers/registrationController.php" method="post">
+        <label>UserName : </label>
+        <input type="text"name="name" placeholder="Enter UserName"><br><br>
+        <label>E-Mail : </label>
+        <input type="email"name="email" placeholder="Enter User Mail"><br><br>
+        <label>Password:</label>
+        <input type="password"name="password" placeholder="Enter User Password"><br><br>
+        <label for="gender">Gender </label><br>
+        <input type="radio" name="gender" value="Male"><spam>Male</spam><br>
+        <input type="radio" name="gender" value="Femele"><spam>Female</spam><br>
+        <input type="radio" name="gender" value="Others"><spam>Others</spam><br><br>
+        <label for="">Hometown</label><br>
+        <select name="city">Hometown
+            <option value="city">Select Your City</option>
+            <option value="Gazipur">Gazipur</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Comilla">Comilla</option>
+            <option value="Sylhet">Sylhet</option>
+        </select>
+        <br><br>
+        <label for="">Say Something About Yourself :</label><br>
+        <textarea name="bio" type="text"></textarea><br><br>
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>
